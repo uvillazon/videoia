@@ -1,0 +1,13 @@
+{
+  "voice": "es-BO-SofiaNeural",
+  "rate": "+10%",
+  "pitch": "+0Hz",
+  "lines": [
+    { "id": "01", "text": "¿Tu auto no arranca?" },
+    { "id": "02", "text": "En U B Power, tenemos la energía." },
+    { "id": "03", "text": "La batería ideal para tu auto o moto." },
+    { "id": "04", "text": "Baterías, luces LED, llantas y más.", "rate": "+18%" },
+    { "id": "05", "text": "¡Diez por ciento de descuento en baterías Focus!" },
+    { "id": "06", "text": "U B Power: la energía que te pone en marcha.", "rate": "+20%" }
+  ]
+}

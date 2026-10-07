@@ -1,0 +1,87 @@
+{
+  "voice": {
+    "voice_id": "p4w8j6zCUDJ0nGJ3okKs",
+    "model_id": "eleven_multilingual_v2",
+    "language_code": "es",
+    "settings": {
+      "stability": 0.4,
+      "similarity_boost": 0.8,
+      "style": 0.3,
+      "use_speaker_boost": true,
+      "speed": 1.05
+    }
+  },
+  "lines": [
+    {
+      "id": "01",
+      "text": "¿Tu auto no arranca?"
+    },
+    {
+      "id": "02",
+      "text": "En U B Power, ¡tenemos la energía!"
+    },
+    {
+      "id": "03",
+      "text": "La batería ideal para tu auto o moto."
+    },
+    {
+      "id": "04",
+      "text": "Baterías, luces LED, llantas y más."
+    },
+    {
+      "id": "05",
+      "text": "¡Diez por ciento de descuento en baterías Focus!"
+    },
+    {
+      "id": "06",
+      "text": "U B Power: la energía que te pone en marcha.",
+      "speed": 1.15
+    },
+    {
+      "id": "07",
+      "text": "Visítanos en comercial u b power punto com."
+    }
+  ],
+  "sfx": [
+    {
+      "id": "starter",
+      "text": "car engine starter cranking weakly and failing to start, dead battery, clicking",
+      "duration": 1.6
+    },
+    {
+      "id": "zap",
+      "text": "electric power up charge, rising electrical zap with sparks, energy charging",
+      "duration": 1.6
+    },
+    {
+      "id": "whoosh",
+      "text": "fast cinematic swoosh transition",
+      "duration": 0.6
+    },
+    {
+      "id": "impact",
+      "text": "deep cinematic bass boom impact hit",
+      "duration": 1.0
+    },
+    {
+      "id": "chime",
+      "text": "bright sparkling logo reveal chime, shimmer",
+      "duration": 1.5
+    },
+    {
+      "id": "typing",
+      "text": "fast typing on a modern laptop keyboard, crisp key clicks",
+      "duration": 1.4
+    },
+    {
+      "id": "click",
+      "text": "single soft mouse click, enter key press, clean UI click",
+      "duration": 0.5
+    }
+  ],
+  "music": {
+    "id": "musica",
+    "prompt": "Energetic modern electronic commercial music for an automotive battery ad, 140 BPM, punchy drums, driving bass, bright synths, confident and positive, instrumental, no vocals, clean ending at 20 seconds",
+    "length_ms": 20000
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "name": "video-ia",
+  "version": "1.3.0",
+  "private": true,
+  "scripts": {
+    "dev": "remotion studio src/index.ts",
+    "build": "remotion render src/index.ts Main out/video.mp4",
+    "build:vertical": "remotion render src/index.ts MainVertical out/video-vertical.mp4",
+    "build:montage": "remotion render src/index.ts Montage out/montaje.mp4",
+    "build:montage:vertical": "remotion render src/index.ts MontageVertical out/montaje-vertical.mp4",
+    "build:promo": "remotion render src/index.ts Promo out/promo.mp4",
+    "build:promo:vertical": "remotion render src/index.ts PromoVertical out/promo-vertical.mp4",
+    "beat": "python3 tools/make_beat.py",
+    "thumb": "remotion still src/index.ts Main out/thumb.png --frame=45",
+    "build:ubpower": "remotion render src/index.ts UBPower out/ubpower.mp4",
+    "build:ubpower:vertical": "remotion render src/index.ts UBPowerVertical out/ubpower-vertical.mp4",
+    "build:ubpowerv1": "remotion render src/index.ts UBPowerV1 out/ubpowerv1.mp4",
+    "build:ubpowerv1:vertical": "remotion render src/index.ts UBPowerV1Vertical out/ubpowerv1-vertical.mp4",
+    "build:ubpowerv2": "remotion render src/index.ts UBPowerV2 out/ubpowerv2.mp4",
+    "build:ubpowerv2:vertical": "remotion render src/index.ts UBPowerV2Vertical out/ubpowerv2-vertical.mp4"
+  },
+  "dependencies": {
+    "@remotion/cli": "4.0.250",
+    "@remotion/layout-utils": "4.0.250",
+    "@remotion/media-utils": "4.0.250",
+    "@remotion/transitions": "4.0.250",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "remotion": "4.0.250"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.0",
+    "typescript": "^5.5.0"
+  }
+}
